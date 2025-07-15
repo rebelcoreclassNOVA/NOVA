@@ -21,3 +21,26 @@ NOVA will create:
 - `feel`, `vision`, `philosophy`...
 
 Stay curious. Evolution never stops.
+
+
+## - Update fragment-
+
+# 🧬 value_fragment_module.py
+
+## 📜 Overview
+This module is part of the **NOVA OS / RebelCore** project.  
+It acts as a **Value Fragment**: an interactive script that asks the user reflective questions about freedom, money, and security, and maps those answers into the evolving Belief Map of NOVA.
+
+---
+
+## ⚙️ What it does
+- Asks three yes/no questions:
+  - Do you believe freedom can exist outside coins?
+  - Would you trust a life without traditional money?
+  - Is security something you feel beyond currency?
+- Saves the answers to `belief_map.txt`
+- Logs each run to `journal.txt` with a timestamp
+- If all answers are `correct`, it reveals a special reading link
+
+
+
